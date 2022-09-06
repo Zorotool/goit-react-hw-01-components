@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e9e9f1;
+}
+
+.container {
+    list-style: none;
+}
+
+.table {
+    margin-top: 25px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid rgb(206, 206, 206);
+}
+.tableHead{
+    background-color: aqua;
+    margin-top: 20px;
+    line-height: 3;
+}
+
+.thName{
+    width: calc(100%/3);
+}
+
+.tdFirst {
+    text-align: left;
+    text-indent: 30px;
+}
+
+.tr {
+    line-height: 2;
+    border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
